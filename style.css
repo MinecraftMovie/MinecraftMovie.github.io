@@ -1,7 +1,7 @@
-@font-face {font-family: Sans MS pixel rus eng; src: url('Comic Sans MS Pixel.ttf')}
+@font-face {font-family: Sans MS pixel rus eng; src: url('assets/Comic Sans MS Pixel.ttf')}
 
 body{
-    background-image:url("kranckman.png");
+    background-image:url("assets/kranckman.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
