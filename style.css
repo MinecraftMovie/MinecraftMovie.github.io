@@ -84,3 +84,10 @@ p{
     padding-left:80px;
     margin:10px;
 }
+
+.disclaimer{
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    font-size:25px;
+}
