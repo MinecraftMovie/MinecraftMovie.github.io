@@ -64,6 +64,8 @@ p{
 
 .maincontent{
     top:200px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .kranck{
@@ -72,6 +74,8 @@ p{
     display:flex;
     justify-content: center;
     flex-direction: column;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .content{
@@ -91,3 +95,20 @@ p{
     left:10px;
     font-size:25px;
 }
+
+.virus{
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+}
+
+button{
+    box-sizing:border-box;
+    border:none;
+    background:grey;
+    box-shadow:inset -1px -1px lightslategray,inset 1px 1px white, inset -2px -2px darkmagenta,inset 2px 2px lightyellow;
+    border-radius: 0;
+    color:aliceblue;
+    font-size:larger;
+}
+
