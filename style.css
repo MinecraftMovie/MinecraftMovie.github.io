@@ -109,10 +109,6 @@ section *{
         width:auto;
     }
 
-    *{
-        border:1px solid red;
-    }
-
     .credit{
         text-align: center;
     }
