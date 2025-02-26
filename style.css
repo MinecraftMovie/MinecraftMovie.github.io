@@ -22,18 +22,16 @@ a {
 main{
     display: flex;
     width:100%;
-    align-items: center;
     margin:60px auto;
-}
-
-main *{
-    margin: auto 10px;
+    gap:20px;
 }
 
 aside{
     width:40%;
     background-color:greenyellow;
-    padding: 10px 30px 10px 10px;
+    padding: 10px 20px 15px;
+    border-radius: 15px;
+    height: fit-content;
 }
 
 nav{
@@ -43,8 +41,6 @@ nav{
 img{
     width: 100%;
     height: auto;
-    margin: 0;
-    padding: 0;
 }
 
 .disclaimer{
@@ -52,16 +48,6 @@ img{
     bottom:10px;
     left:10px;
     font-size:25px;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    width:100%;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
-    padding: 10px auto;
 }
 
 ul{
@@ -75,3 +61,27 @@ li{
     font-size:larger;
 }
 
+main article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:100%;
+}
+
+main section{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px 20px 20px;
+    margin: 0px auto 10px;
+    background-color:rgb(216, 243, 242);
+    border-radius: 15px;
+    gap:20px;
+}
+
+section *{
+    margin:0;
+    padding:0;
+}
