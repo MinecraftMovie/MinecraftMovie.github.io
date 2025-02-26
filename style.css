@@ -43,7 +43,7 @@ img{
     height: auto;
 }
 
-.disclaimer{
+#disclaimer{
     position:fixed;
     bottom:10px;
     left:10px;
@@ -114,4 +114,16 @@ section *{
     }
   }
 
-  
+  #s-m-t-tooltip {
+    z-index: 999999999;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    text-transform: normal;
+    max-width: 300px;
+    display: block;
+    word-wrap: break-word;
+    padding: 7px;
+    margin: 0px 10px 5px;}
