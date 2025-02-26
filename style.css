@@ -34,8 +34,8 @@ aside{
     height: fit-content;
 }
 
-nav{
-    margin: 0 auto 15px;
+aside>div{
+    margin:20px auto 0px;
 }
 
 img{
