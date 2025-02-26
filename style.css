@@ -1,6 +1,6 @@
 @font-face {font-family: Sans MS pixel rus eng; src: url('assets/Comic Sans MS Pixel.ttf')}
 
-body{
+html{
     background-image:url("assets/kranckman.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,11 +8,10 @@ body{
     font-family: 'Sans MS pixel rus eng';
 }
 
-.money{
-    font-size: large;
-    text-align: center;
-    margin: auto;
-    font-family: 'Sans MS pixel rus eng', sans-serif;
+body{
+    width: 65%;
+    margin: 0px 50px;
+    left: 50px;
 }
 
 a {
@@ -20,73 +19,32 @@ a {
     color: rgb(255, 144, 163);
 }
 
-
-iframe{
-    display:block;
-}
-
-.maindiv{
+main{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width:100%;
     align-items: center;
-    gap:10px;
+    margin:60px auto;
 }
 
-.center{
-    margin:0;
-    position:absolute;
-    top:50%;
-    left:50%;
-    -ms-transform:translate(-50,-50%);
-    transform:translate(-50%,-50%);
+main *{
+    margin: auto 10px;
 }
 
-.footer{
-    height:22vh;
-    display:flex;
-    justify-content: center;
+aside{
+    width:40%;
+    background-color:greenyellow;
+    padding: 10px 30px 10px 10px;
 }
 
-.header{
-    padding:20px;
-    display:flex;
-    justify-content: center;
+nav{
+    margin: 0 auto 15px;
 }
 
-p{
-    font-family: 'Sans MS pixel rus eng';
-}
-
-.contact{
-    align-content: left;
-}
-
-.maincontent{
-    top:200px;
-    margin-left:10px;
-    margin-right:10px;
-}
-
-.kranck{
-    height:fit-content;
-    width:auto;
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left:10px;
-    margin-right:10px;
-}
-
-.content{
-    display:flex;
-    flex-direction: row;
-    width:65%;
-    align-items: center;
-    height:100vh;
-    justify-content: space-between;
-    padding-left:80px;
-    margin:10px;
+img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .disclaimer{
@@ -96,19 +54,24 @@ p{
     font-size:25px;
 }
 
-.virus{
-    position: fixed;
-    bottom:10px;
-    right: 10px;
+section{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 10px auto;
 }
 
-button{
-    box-sizing:border-box;
-    border:none;
-    background:grey;
-    box-shadow:inset -1px -1px lightslategray,inset 1px 1px white, inset -2px -2px darkmagenta,inset 2px 2px lightyellow;
-    border-radius: 0;
-    color:aliceblue;
+ul{
+    list-style: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 0;
+}
+
+li{
     font-size:larger;
 }
 
