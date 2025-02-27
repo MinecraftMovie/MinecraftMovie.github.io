@@ -1,0 +1,28 @@
+{
+  "name": "minecraftmovie.github.io",
+  "version": "1.0.0",
+  "description": "Blog for minecraftmovie.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinecraftMovie/MinecraftMovie.github.io.git"
+  },
+  "keywords": [
+    "Kranck",
+    "minecraftmovie",
+    "minecraft",
+    "music",
+    "art",
+    "zine",
+    "independent"
+  ],
+  "author": "Music for the Layman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinecraftMovie/MinecraftMovie.github.io/issues"
+  },
+  "homepage": "https://github.com/MinecraftMovie/MinecraftMovie.github.io#readme"
+}
