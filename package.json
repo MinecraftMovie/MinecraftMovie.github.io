@@ -4,7 +4,7 @@
   "description": "Blog for minecraftmovie.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,10 @@
   "bugs": {
     "url": "https://github.com/MinecraftMovie/MinecraftMovie.github.io/issues"
   },
-  "homepage": "https://github.com/MinecraftMovie/MinecraftMovie.github.io#readme"
+  "homepage": "https://github.com/MinecraftMovie/MinecraftMovie.github.io#readme",
+  "dependencies": {
+    "express-fileupload": "^1.5.1",
+    "express.js": "^1.0.0",
+    "nodemon": "^3.1.9"
+  }
 }
