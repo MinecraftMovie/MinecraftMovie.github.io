@@ -43,6 +43,11 @@ aside img{
     height: auto;
 }
 
+section img{
+    max-width: 60%;
+    height:auto;
+}
+
 .disclaimer{
     position:fixed;
     bottom:10px;
