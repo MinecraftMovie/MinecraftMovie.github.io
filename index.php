@@ -7,7 +7,7 @@
     <meta name="description" content="Kranck Presents: Not an Official Minecraft Website: The Minecraft Movie. Official website of Kranck: artist, visionary, anti-leader.">
     <meta name="keywords" content="minecraft, movie, minecraftmovie,kranck,music,art,blog,funny,lol,meme,artist,dreams,comments,hotline,The Minecraft Movie,minecraft movie">
     <title> Kranck Presents: Not An Official Minecraft Website: The Minecraft Movie</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/assets/favicon/favicon-32x32.png">
     <!-- script for rainbow links -->
