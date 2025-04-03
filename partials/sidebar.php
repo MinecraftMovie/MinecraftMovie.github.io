@@ -2,7 +2,9 @@
     <p style="margin:2px auto; font-size:x-large;">Website navigation</p>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="portfolio.php">Kranck's Portfolio</a></li>
+            <li><a href="">Storefront *Coming Soon*</a></li>
         </ul>
     </nav>
     <p style="margin:2px auto; font-size:x-large;">Kranck's links</p>

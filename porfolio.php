@@ -13,7 +13,9 @@
         <?php include("partials/sidebar.php") ?>
     </main>
     <footer>
-        
+        <article>
+            
+        </article>
     </footer>
 </body>
 </html>
