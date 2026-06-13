@@ -15,8 +15,10 @@ body{
 }
 
 a {
-    text-decoration: none;
-    color: rgb(255, 144, 163);
+    text-decoration: underline;
+    color: #0000EE;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:smaller;
 }
 
 main{
@@ -28,7 +30,7 @@ main{
 
 aside{
     width:40%;
-    background-color:greenyellow;
+    background-color:rgb(177, 83, 83);
     padding: 10px 20px 15px;
     border-radius: 15px;
     height: fit-content;
@@ -76,7 +78,7 @@ main section{
     text-align: center;
     padding: 20px 20px 20px;
     margin: 0px auto 10px;
-    background-color:rgb(216, 243, 242);
+    background-color:rgb(116, 151, 95);
     border-radius: 15px;
     gap:20px;
 }
