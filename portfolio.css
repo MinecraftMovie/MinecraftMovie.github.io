@@ -1,11 +1,11 @@
-@font-face {font-family: Sans MS pixel rus eng; src: url('assets/Comic Sans MS Pixel.ttf')}
+@import url(fonts.css);
 
 html{
     background-image:url("assets/kranckman.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
-    font-family: 'Sans MS pixel rus eng';
+    font-family: 'Minecraft Seven';
 }
 
 body{
@@ -15,8 +15,10 @@ body{
 }
 
 a {
-    text-decoration: none;
-    color: rgb(255, 144, 163);
+    text-decoration: underline;
+    color: #0000EE;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:smaller;
 }
 
 h1{
@@ -32,7 +34,7 @@ main{
 
 aside{
     width: 23%;
-    background-color:greenyellow;
+    background-color:rgb(177, 83, 83);
     padding: 10px 20px 15px;
     border-radius: 15px;
     height: fit-content;
@@ -82,7 +84,7 @@ main section{
     text-align: center;
     gap:5px;
     padding: 10px 10px 10px;
-    background-color:rgb(216, 243, 242);
+    background-color:rgb(116, 151, 95);
     border-radius: 15px;
 }
 
