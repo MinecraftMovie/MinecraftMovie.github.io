@@ -1,11 +1,11 @@
-@font-face {font-family: Sans MS pixel rus eng; src: url('assets/Comic Sans MS Pixel.ttf')}
+@import url(fonts.css);
 
 html{
     background-image:url("assets/kranckman.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right;
-    font-family: 'Sans MS pixel rus eng';
+    font-family:'Intuitive';
 }
 
 body{
@@ -102,6 +102,7 @@ section *{
     padding: 7px;
     margin: 0px 10px 5px;
 }
+
 
 @media screen and (max-width: 40em) {
     main{
