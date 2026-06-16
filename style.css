@@ -101,6 +101,11 @@ section *{
     word-wrap: break-word;
     padding: 7px;
     margin: 0px 10px 5px;
+    font-family: "Minecraft Seven";
+}
+
+.credit{
+    font-family: "Minecraft Seven";
 }
 
 
