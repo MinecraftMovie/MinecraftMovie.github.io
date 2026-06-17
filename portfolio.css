@@ -69,7 +69,7 @@ li{
 
 main article{
     display: grid;
-    width:auto;
+    width:80%;
     grid-template-columns: repeat(3, minmax(0,1fr));
     grid-auto-rows: min-content;
     gap: 10px;
@@ -91,10 +91,6 @@ main section{
 section *{
     margin:0;
     padding:0;
-}
-
-section>img{
-    width:auto;
 }
 
 #s-m-t-tooltip {
