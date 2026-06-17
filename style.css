@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    width: 100%;
+    width: 90%;
     margin: 0px 50px;
     left: 50px;
 }
@@ -23,13 +23,13 @@ a {
 
 main{
     display: flex;
-    width:65%;
-    margin:60px auto;
+    width:100%;
+    margin:60px 60px 60px 0;
     gap:20px;
 }
 
 aside{
-    width:30%;
+    width:20%;
     background-color:rgb(177, 83, 83);
     padding: 10px 20px 15px;
     border-radius: 15px;
@@ -67,7 +67,7 @@ main article{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width:100%;
+    width:40%;
 }
 
 main section{
