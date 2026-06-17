@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    width: 65%;
+    width: 100%;
     margin: 0px 50px;
     left: 50px;
 }
@@ -27,13 +27,13 @@ h1{
 
 main{
     display: flex;
-    width:130%;
+    width:100%;
     margin:60px auto;
     gap:20px;
 }
 
 aside{
-    width: 23%;
+    width: 30%;
     background-color:rgb(177, 83, 83);
     padding: 10px 20px 15px;
     border-radius: 15px;
@@ -110,6 +110,10 @@ section>img{
     word-wrap: break-word;
     padding: 7px;
     margin: 0px 10px 5px;
+}
+
+.credit{
+    font-family: "Minecraft Seven";
 }
 
 @media screen and (max-width: 40em) {
